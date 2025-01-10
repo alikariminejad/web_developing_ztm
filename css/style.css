@@ -1,11 +1,43 @@
 /* Selector{
     property: value;
 } */
+*{
+    text-align: right;
+}
 
-h2{
-    color: red;
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+
+h2, p:hover{
+    color: #AA4139 !important;
+    text-align: center;
+    border: 4px dashed rgba(255, 176, 170, 0.5);
+    cursor: progress;
 }
 
 p{
     color: aqua;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+
+.whatever:last-child{
+    border: 5px dashed rgba(255, 176, 10, 0.5)
+}
+
+.anotherone{
+    color: burlywood;
+}
+
+#div1{
+    background: rgba(0,0,255, 0.4);
+}
+#div2{
+    background: rgba(255,0,0, 0.2);
 }
