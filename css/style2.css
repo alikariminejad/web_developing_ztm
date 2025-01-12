@@ -1,7 +1,7 @@
 h2{
     color: blue;
 }
-
+/* 
 .boxmodel{
     border: 5px solid red;
     display: inline-block;
@@ -9,4 +9,12 @@ h2{
     margin: 0px 20px;
     width: 23px;
     height: 33px;
+} */
+
+p{
+    font-size: 15px;
+}
+
+span{
+    font-size: 3em;  /* em is the font size of the paragraph but rem is the font size of the root */
 }
