@@ -10,7 +10,7 @@ body{
     background-size: cover;
 }
 
-h2, p:hover{
+h2, p{
     color: #AA4139 !important;
     text-align: center;
     border: 4px dashed rgba(255, 176, 170, 0.5);
@@ -18,7 +18,10 @@ h2, p:hover{
 }
 
 p{
-    color: aqua;
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 120%;
+    font-family: 'Poiret One', cursive;
 }
 
 li{
