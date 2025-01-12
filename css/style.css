@@ -24,6 +24,15 @@ p{
     font-family: 'Poiret One', cursive;
 }
 
+img{
+    float: left;
+}
+
+footer{
+    clear: both;
+    text-align: center;
+}
+
 li{
     list-style: none;
     display: inline-block;
